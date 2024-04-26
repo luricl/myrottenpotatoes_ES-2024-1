@@ -1,24 +1,27 @@
-# README
+# myrottenpotatoes
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple web app designed to provide users with information about various movies including titles, ratings, release dates, and descriptions. 
 
-Things you may want to cover:
+## Features
+- Create movies
+- View movies Details
+- Edit movies details
+- Delete movies
 
-* Ruby version
+## Usage
 
-* System dependencies
+First, migrate and seed the database
 
-* Configuration
+```
+bin/rails db:migrate
+```
 
-* Database creation
+```
+bin/rails db:seed
+```
 
-* Database initialization
+The, run the app and open the route http://127.0.0.1:3000
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+bin/rails server
+```
