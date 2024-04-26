@@ -1,9 +1,11 @@
 <h1>All Movies</h1>
 
-<%= link_to 'Add Movie', new_movie_path, :class => 'btn btn-primary' %>
+<div style="margin: 20px;">
+  <%= link_to 'Add Movie', new_movie_path, :class => 'btn btn-primary' %>
+</div>
 
 <div id="movies">
-  <div class="row">
+  <div class="row movies_header">
     <div class="col-8">Movie Title</div>
     <div class="col-2">Rating</div>
     <div class="col-2">Release Date</div>
